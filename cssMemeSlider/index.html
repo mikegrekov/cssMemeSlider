@@ -7,15 +7,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
-    <script src="index.js"></script>
-    <script src="carusel.js"></script>
+    <script src="index.js" defer></script>
+    <script src="carusel.js" defer></script>
 </head>
-<body>
+<body onresize = "location.reload();" >
     <div class="body-container">
         <header>
             <h1 class="title">Funny cats</h1>
         </header>
-        <main>Main
+        <main>
             <section class="carusel-container">
                 <h2 class="section-title">This cats make you happy</h2>
                 <div class="images-carusel-container">                 
@@ -38,10 +38,19 @@
                 <div class="footer-carusel">
                     <div class="titles-carusel"></div>
                     <div class="buttons-carusel">
-                        <span class="carusel-item" onclick="activateAboutSlide(0)"></span>
-                        <span class="carusel-item" onclick="activateAboutSlide(1)"></span>
-                        <span class="carusel-item" onclick="activateAboutSlide(2)"></span>
-                        <span class="carusel-item" onclick="activateAboutSlide(3)"></span>
+                        <div class="carusel-item-container" onclick="activateSlide(0)">
+                            <span class="carusel-item" ></span>
+                        </div>
+                        <div class="carusel-item-container" onclick="activateSlide(1)">
+                            <span class="carusel-item" ></span>
+                        </div>
+                        <div class="carusel-item-container" onclick="activateSlide(2)">
+                            <span class="carusel-item"></span>
+                        </div>
+                        <div class="carusel-item-container" onclick="activateSlide(3)">
+                            <span class="carusel-item"></span>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -51,3 +60,6 @@
     
 </body>
 </html>
+
+
+
