@@ -22,7 +22,13 @@ function activateSlide(n) {
     
     moveImages(n);
     carusel[n].className += " carusel-active";
-    caruselTitle.innerHTML = caruselImage[n].children[0].alt;
+    caruselTitle.style.opacity = 0;
+    setTimeout(() => {
+        caruselTitle.innerHTML = caruselImage[n].children[0].alt;
+        caruselTitle.style.opacity = 1;
+    }, 200);
+
+
 }
 
 function moveImages(n) {
