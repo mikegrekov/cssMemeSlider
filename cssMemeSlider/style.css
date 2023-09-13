@@ -124,6 +124,10 @@ html {
     background-color: white;
   }
 
+  footer {
+      display: none;
+  }
+
   @keyframes animatron {
     from {
       opacity: 0;
