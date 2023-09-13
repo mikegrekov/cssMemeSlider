@@ -1,4 +1,11 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
+    .footer-carusel {
+        flex-direction: column-reverse;
+    }
+
+    .buttons-carusel{
+        margin: 0 auto;
+    }
     /* .about-images {
         display: flex;
         margin-left: auto;

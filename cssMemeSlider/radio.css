@@ -47,36 +47,36 @@
     &  .carusel-item {
         background-color: var(--color-gray);
         border: 1vw solid var(--color-orange);
-        border-width: thick;
+        border-width: 0.3vw;
     }
     &:hover .carusel-item {
         background-color: var(--color-gray);
         border: 1vw solid white;
-        border-width: thick;
+        border-width: 0.3vw;
     }
 }
 #cat1-radio:checked ~ .footer-carusel .buttons-carusel .carusel-item-container:nth-child(2) {
     &  .carusel-item {
         background-color: var(--color-gray);
         border: 1vw solid var(--color-orange);
-        border-width: thick;
+        border-width: 0.3vw;
     }
     &:hover .carusel-item {
         background-color: var(--color-gray);
         border: 1vw solid white;
-        border-width: thick;
+        border-width: 0.3vw;
     }
 }
 #cat2-radio:checked ~ .footer-carusel .buttons-carusel .carusel-item-container:nth-child(3) {
     &  .carusel-item {
         background-color: var(--color-gray);
         border: 1vw solid var(--color-orange);
-        border-width: thick;
+        border-width: 0.3vw;
     }
     &:hover .carusel-item {
         background-color: var(--color-gray);
         border: 1vw solid white;
-        border-width: thick;
+        border-width: 0.3vw;
     }
 }
 #cat3-radio:checked ~ .footer-carusel .buttons-carusel .carusel-item-container:nth-child(4) {
@@ -84,12 +84,12 @@
     &  .carusel-item {
         background-color: var(--color-gray);
         border: 1vw solid var(--color-orange);
-        border-width: thick;
+        border-width: 0.3vw;
     }
     &:hover .carusel-item {
         background-color: var(--color-gray);
         border: 1vw solid white;
-        border-width: thick;
+        border-width: 0.3vw;
     }
 
 }
