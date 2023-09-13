@@ -40,6 +40,11 @@ html {
 .section-title {
     display: none;
 }
+
+.radio-input {
+    display: none;
+}
+
 .images-carusel-container {
 }
 .images {
@@ -76,8 +81,16 @@ html {
 .titles-carusel {
     font-size: 3vw;
     color: white;
-    transition: opacity .2s ease-in-out;
+    list-style-type: none;
 }
+
+.title-carusel {
+    opacity: 0;
+    display: none;
+    animation-name: animatron;
+    animation-duration: 1s;
+}
+
 .buttons-carusel {
     /* background-color: rebeccapurple; */
     display: flex;
@@ -90,7 +103,6 @@ html {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    /* background-color: none; */
 }
 
 .carusel-item {
@@ -100,12 +112,6 @@ html {
     border-radius: 50%;
     background-color: var(--color-orange);
     cursor: pointer;
-  }
-
-  .carusel-active {
-    background-color: var(--color-gray);
-    border: 1vw solid var(--color-orange);
-    border-width: thick;
   }
   
   .carusel-item-container:hover .carusel-item.carusel-active {
@@ -118,3 +124,12 @@ html {
     background-color: white;
   }
 
+  @keyframes animatron {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

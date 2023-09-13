@@ -9,7 +9,7 @@ const caruselImage = document.querySelectorAll(class_list.CARUSEL_IMAGE);
 const caruselTitle = document.querySelector(class_list.CARUSEL_TITLES);
 const caruselImageContainerWidth = document.querySelector(class_list.CARUSEL_CONTAINER).clientWidth + 25;
 
-activateSlide(0);
+// activateSlide(0);
 
 function activateSlide(n) {
 
