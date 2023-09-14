@@ -25,8 +25,13 @@ html {
     font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
   }
 
-.body-container {
+  body {
     background-color: var(--color-gray);
+
+  }
+
+.body-container {
+    /* background-color: var(--color-gray); */
 }
 .title {
     display: none;
@@ -35,7 +40,7 @@ html {
     display: flex;
     flex-direction: column;
     gap: 2vh;
-    padding: 5vh 0;
+    padding: 3vh 0;
 }
 .section-title {
     display: none;
@@ -65,7 +70,7 @@ html {
 }
 .slider-pictures {
     width: 80vw; 
-    height: 80vh;
+    height: 79vh;
     z-index: -1;
 }
 .footer-carusel {
@@ -73,13 +78,14 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    min-height: 10vh;
+    min-height: 6vh;
     width: 80vw;
     margin: 0 auto;
     /* background-color: aqua; */
 }
 .titles-carusel {
-    font-size: 3vw;
+    /* font-size: 3vw; */
+    font-size: 4vmax;
     color: white;
     list-style-type: none;
 }
@@ -106,9 +112,12 @@ html {
 }
 
 .carusel-item {
-    margin: 1vw;
+    /* margin: 1vw;
     height: 2vw;
-    width: 2vw;
+    width: 2vw; */
+    margin: 1vmax;
+    height: 3vmax;
+    width: 3vmax;
     border-radius: 50%;
     background-color: var(--color-orange);
     cursor: pointer;
