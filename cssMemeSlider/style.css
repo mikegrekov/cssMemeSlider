@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Forum;
+     src: url("assets/fonts/Forum-Regular.ttf");
+   }
+
+@font-face {
+    font-family: Inter;
+    src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+
+:root {
+    --color-gray: rgb(61, 54, 54) ;
+    --color-orange: hwb(39 0% 0%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+  }
+
+  body {
+    background-color: var(--color-gray);
+
+  }
+
+.body-container {
+    /* background-color: var(--color-gray); */
+}
+.title {
+    display: none;
+}
+.carusel-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 3vh 0;
+}
+.section-title {
+    display: none;
+}
+
+.radio-input {
+    display: none;
+}
+
+.images-carusel-container {
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80vw;
+    overflow:hidden;
+    border-radius: 2%;
+    background-color: white;
+    border: 1rem solid white;
+    /* border-radius: 2%; */
+    overflow: hidden;
+}
+.image-item {
+    /* width: 20vw; */
+    transition: .5s;
+}
+.slider-pictures {
+    width: 80vw; 
+    height: 79vh;
+    z-index: -1;
+}
+.footer-carusel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 6vh;
+    width: 80vw;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.titles-carusel {
+    /* font-size: 3vw; */
+    font-size: 3.5vmax;
+    color: white;
+    list-style-type: none;
+}
+
+.title-carusel {
+    opacity: 0;
+    display: none;
+    animation-name: animatron;
+    animation-duration: 1s;
+}
+
+.buttons-carusel {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.carusel-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.carusel-item {
+    /* margin: 1vw;
+    height: 2vw;
+    width: 2vw; */
+    margin: 1vmax;
+    height: 2.5vmax;
+    width: 2.5vmax;
+    border-radius: 50%;
+    background-color: var(--color-orange);
+    cursor: pointer;
+  }
+  
+  .carusel-item-container:hover .carusel-item.carusel-active {
+    background-color: var(--color-gray);
+    border: 1vw solid white;
+    border-width: thick;
+  }
+
+  .carusel-item-container:hover .carusel-item {
+    background-color: white;
+  }
+
+  footer {
+      display: none;
+  }
+
+  @keyframes animatron {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

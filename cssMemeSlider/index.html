@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="radio.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- <script src="index.js" defer></script> -->
+    <!-- <script src="carusel.js" defer></script> -->
+</head>
+<!-- <body onresize = "location.reload();" > -->
+<body >
+    <div class="body-container">
+        <header>
+            <h1 class="title">Funny cats</h1>
+        </header>
+        <main>
+            <section class="carusel-container">
+                <h2 class="section-title">This cats make you happy</h2>
+                <input type="radio" checked name="cats" id="cat0-radio" class="radio-input">
+                <input type="radio" name="cats" id="cat1-radio" class="radio-input">
+                <input type="radio" name="cats" id="cat2-radio" class="radio-input">
+                <input type="radio" name="cats" id="cat3-radio" class="radio-input">
+                <div class="images-carusel-container">                 
+                    <div class="images">
+                        <!-- <div class="images-shift"> -->
+                            <div class="image-item" id = 'cat0'>
+                                <img src="assets/img/cat1.jpg" alt="Blowing cat" class="slider-pictures">
+                            </div>
+                            <div class="image-item" id = 'cat1'>
+                                <img src="assets/img/cat2.jpg" alt="Hungry cat" class="slider-pictures">
+                            </div>    
+                            <div class="image-item" id = 'cat2'>
+                                <img src="assets/img/cat3.jpg" alt="Happy cat" class="slider-pictures">
+                            </div>  
+                            <div class="image-item" id = 'cat3'>
+                                <img src="assets/img/cat4.jpg" alt="Cats never sleep" class="slider-pictures">
+                            </div>  
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="footer-carusel">
+                    <ul class="titles-carusel">
+                        <li class="title-carusel">Blowing cat</li>
+                        <li class="title-carusel">Hungry cat</li>
+                        <li class="title-carusel">Happy cat</li>
+                        <li class="title-carusel">Cats never sleep</li>
+                    </ul>
+                    <div class="buttons-carusel">
+                        <label for="cat0-radio" class="carusel-item-container">
+                            <span class="carusel-item" ></span>
+                        </label>
+                        <label for="cat1-radio" class="carusel-item-container">
+                            <span class="carusel-item" ></span>
+                        </label>
+                        <label for="cat2-radio" class="carusel-item-container">
+                            <span class="carusel-item"></span>
+                        </label>
+                        <label for="cat3-radio" class="carusel-item-container">
+                            <span class="carusel-item"></span>
+                        </label>
+                    <!-- <div class="buttons-carusel">
+                        <div class="carusel-item-container" onclick="activateSlide(0)">
+                            <span class="carusel-item" ></span>
+                        </div>
+                        <div class="carusel-item-container" onclick="activateSlide(1)">
+                            <span class="carusel-item" ></span>
+                        </div>
+                        <div class="carusel-item-container" onclick="activateSlide(2)">
+                            <span class="carusel-item"></span>
+                        </div>
+                        <div class="carusel-item-container" onclick="activateSlide(3)">
+                            <span class="carusel-item"></span>
+                        </div> -->
+
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>Footer</footer>
+    </div>
+    
+</body>
+</html>
+
+
+
