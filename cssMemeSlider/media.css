@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
     .footer-carusel {
         flex-direction: column-reverse;
+        gap: 2vh;
     }
 
     .buttons-carusel{
